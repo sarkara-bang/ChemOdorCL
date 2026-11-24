@@ -1,3 +1,4 @@
+[![Dataset DOI](https://img.shields.io/badge/DOI-10.57760%2Fsciencedb.01be0-blue)](https://doi.org/10.57760/sciencedb.01be0)
 # ChemOdorCL
 
 ChemOdorCL adapts MoLFormer molecular representations for multi-label odor prediction. The workflow consists of constructing positive-sample pools, continued contrastive pretraining, and downstream odor-prediction fine-tuning.
