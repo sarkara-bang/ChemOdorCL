@@ -66,3 +66,17 @@ Use consistent label spelling and avoid missing values in required columns. Cano
 The pretraining script currently encodes 27 odor classes. The downstream script predicts the 21 classes defined in its `TARGET_LABELS` configuration. Its `CLASS_WEIGHTS_CONFIG` and `CLASS_THRESHOLDS_CONFIG` specify the positive-class loss weights and prediction thresholds. See [the downstream script](./finetune/finetune_odor_lessclass_weighted.py) when adapting the label set.
 
 Dataset names and filenames must agree across all stages. For a different dataset key, check the loaders in [the pool-building script](./feature_extraction/find_similar_co.py) and the `get_split_dataset_filename` methods in the training scripts. Renaming a directory alone does not add a new supported task to the pool builder.
+
+## Dataset Availability
+
+The ChemOdor-9K dataset used in this study is hosted on Science Data Bank (ScienceDB), a scientific data repository supporting long-term data preservation and academic research.
+
+ChemOdor-9K contains over 9,000 curated molecules covering 21 core odor categories for multi-label molecular odor prediction.
+
+- **Dataset repository:** Science Data Bank (ScienceDB)
+- **DOI:** [10.57760/sciencedb.01be0](https://doi.org/10.57760/sciencedb.01be0)
+- **Access type:** Restricted access
+
+Researchers interested in accessing the dataset may submit a data access request through the ScienceDB dataset page. Access is subject to approval and the data usage conditions specified in the repository.
+
+Users are requested to properly cite the dataset when using it in academic publications or related research. Redistribution and commercial use must comply with the applicable data usage conditions.
