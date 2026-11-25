@@ -1,4 +1,4 @@
-[![Dataset DOI](https://img.shields.io/badge/DOI-10.57760%2Fsciencedb.01be0-blue)](https://doi.org/10.57760/sciencedb.01be0)
+
 # ChemOdorCL
 
 ChemOdorCL adapts MoLFormer molecular representations for multi-label odor prediction. The workflow consists of constructing positive-sample pools, continued contrastive pretraining, and downstream odor-prediction fine-tuning.
@@ -74,7 +74,7 @@ The ChemOdor-9K dataset used in this study is hosted on Science Data Bank (Scien
 ChemOdor-9K contains over 9,000 curated molecules covering 21 core odor categories for multi-label molecular odor prediction.
 
 - **Dataset repository:** Science Data Bank (ScienceDB)
-- **DOI:** [10.57760/sciencedb.01be0](https://doi.org/10.57760/sciencedb.01be0)
+- **DOI:** To comply with the conference’s double-blind review policy, the dataset DOI is temporarily withheld.
 - **Access type:** Restricted access
 
 Researchers interested in accessing the dataset may submit a data access request through the ScienceDB dataset page. Access is subject to approval and the data usage conditions specified in the repository.
